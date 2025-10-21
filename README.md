@@ -17,4 +17,4 @@ The script prints the fetched prices and saves them to `data.csv` in the current
 
 ## Notes
 
-- The timestamp column is generated in UTC. Swap to `datetime.now(datetime.UTC)` if you prefer timezone-aware values without deprecation warnings.
+- The timestamp column is generated in UTC using timezone-aware ISO 8601 strings.
